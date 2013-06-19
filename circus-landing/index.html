@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap 101 Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.css" rel="stylesheet" media="screen" />
+	<link href="css/bootstrap-responsive.css" rel="stylesheet" media="screen" />
+	<link href="css/ah-ui.css" rel="stylesheet" media="screen" />
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/default.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<script src="js/modernizr.custom.js"></script>
+	<style>
+	* {
+		font-family: 'Source Sans Pro', sans-serif;
+		font-weight: 400;
+		
+	}
+	.circus-hero {
+		padding-top: 40px;
+	}
+	.circus-hero h2 {
+		margin: 40px 0;
+		padding-top: 20px;
+	}
+	.circus-hero p {
+		font-size: 16px;
+	}
+	.mbottom {
+		margin-bottom: 40px;
+	}
+	.vertpadding {
+		padding: 40px 0;
+	}
+	.minheight {
+		min-height: 230px;
+	}
+	.graybg {
+		background-color: #f8f8f8;
+		border-top: 1px solid #ededed;
+		border-bottom: 1px solid #ededed;
+	}
+	.darkgraybg {
+		background-color: #444444;
+	}
+	.darkgraybg p {
+		color: #fff;
+	}
+	h1 {
+		font-size: 36px;
+		line-height: 64px;
+		margin: 10px 0;
+	}
+	h1.jumbo {
+		font-size: 60px;
+		line-height: 60px;
+	}
+	h2 {
+		font-size: 29px;
+		line-height: 40px;
+		font-weight: 500;
+		color: #555555;
+		margin: 10px 0;
+	}
+	h2 span {
+		color: #999;
+		font-weight: 500;
+	}
+	h2.jumbo {
+		font-size: 42px;
+	}
+	p {
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 300;
+		color: #333333;
+	}
+	p.jumbo {
+		font-size: 22px;
+		line-height: 28px;
+	}
+	p.panelblurb {
+		max-width: 700px;
+	}
+	.green {
+		color:#3d8e33;
+	}
+	.footer p {
+		margin: 0;
+	}
+	.footer ul.nav {
+		float: right;
+		text-align:right;
+		width: 100%;
+	}
+	.footer ul.nav li a {
+		color: #d8d8d8;
+		display: inline-block;
+		text-align: right;
+		float: left;
+		margin: 0 0 0 20px;
+	}    
+	.footer ul.nav li a:hover {
+		color: #fff;
+		background: none;
+		text-decoration: none;
+	}
+	.wrapper {
+		width: 100%;
+		max-width:1400px;
+		margin: 0 auto;
+	}
+	</style>
+</head>
+<body>
+    	<!-- 
+    	<div class="navbar navbar-inverse navbar-fixed-top">
+    	    <div class="navbar-inner">
+    	        <div class="container-fluid">
+    	        	<div class="row-fluid">
+	    	        	<div class="span8">
+							<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="brand" href="#"><img src="images/ah-logo.png" alt=""></a>
+							<div class="nav-collapse collapse">
+								<ul class="nav">
+								  	<li class="active"><a href="#">Home</a></li>
+								  	<li><a href="#tour">Tour</a></li>
+								  	<li><a href="#about">About</a></li>
+								</ul>
+							</div>
+		    	        </div>
+		    	    </div>
+    	        </div>
+    	    </div>
+    	</div> -->
+
+    	<div class="row-fluid" style="background-color: #3d8e33; padding: 80px 0; color: white;">
+    		<div class="container" style="max-width: 800px;">
+    			<div class="row-fluid">
+    				<div class="span12">
+    					<form id="nl-form" class="nl-form">
+    						I feel like going &nbsp;<select>
+    							<option value="1" selected>to &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+    							<option value="2">out to the ocean</option>
+    							<option value="3">up to the mountains</option>
+    							<option value="4">to Italy</option>
+    							<option value="5">to Paris</option>
+    							<option value="6">on Safari</option>
+    						</select><br/>
+    						<select>
+
+    							<option value="1" selected>with &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+    							<option value="2">with my husband</option>
+    							<option value="3">with my children</option>
+    							<option value="4">with my grandchildren</option>
+    							<option value="5">by myself</option>
+    						</select>. I want to leave
+    						<select>
+    							<option value="1" selected>today</option>
+    							<option value="1">next week</option>
+    							<option value="2">next month</option>
+    							<option value="3">later this year</option>
+    						</select>.
+    						You can reach me at <input type="text" value="" placeholder="my email" data-subline="For example: <em>rmclaughlin@andrewharper.com</em>"/>.
+    						<div class="nl-submit-wrap">
+    							<button class="btn" type="submit">Find My Trip!</button>
+    						</div>
+    						<div class="nl-overlay"></div>
+    					</form>
+    				</div>	
+    			</div>	
+    		</div>
+    	</div>
+    </div>
+
+    <div class="row-fluid">
+    	<div class="wrapper">
+    		<div class="container-fluid circus-hero mbottom">
+    			<div class="row-fluid">
+    				<div class="span12  text-center">
+    					<h1 class="jumbo">Introducing Andrew Harper</h1>
+    					<p class="mbottom jumbo">We connect you with extraordinary travel experiences.</p>
+    					<p><a href="#" class="btn btn-large">Try It Now &rarr;</a></p>
+    				</div>	
+    			</div>	
+    		</div>
+    	</div>
+    </div>
+</div>
+
+<div class="row-fluid graybg">
+	<div class="wrapper">
+		<div class="row-fluid ">
+			<div class="container-fluid">
+				<div class="row-fluid vertpadding">
+					<div class="span4"><img src="http://s3.amazonaws.com/ah.web/circus-hammock.png" alt=""></div>
+					<div class="span8">
+						<h2 class="jumbo green">Advice You Can Trust</h2><br />
+						<p class="mbottom panelblurb">By traveling the world in search of unparalleled accommodations, experiences and amenities, the Andrew Harper team thoughtfully presents you with unbiased information about and access to destinations, properties and amenities that exceed your expectations, delivering once in a lifetime  experiences – every time you travel. </p>
+						<p><a href="#" class="btn btn-large">Try It Now &rarr;</a></p>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>		
+
+
+<div class="row-fluid">
+	<div class="wrapper">			
+		<div class="row-fluid vertpadding minheight">
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span8">
+						<h2 class="jumbo green">Travel Made Easy</h2><br />
+						<p class="mbottom panelblurb">Andrew Harper's highly personalized travel services and products enable you to travel in the sophisticated style to which you are most accustomed and deservered.</p>
+						<p><a href="#" class="btn btn-large">Try It Now &rarr;</a></p>
+					</div>
+					<div class="span4"><img src="http://s3.amazonaws.com/ah.web/circus-giraffe380.png" alt="" /></div>
+				</div>	
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row-fluid graybg">
+	<div class="wrapper">
+		<div class="row-fluid vertpadding minheight">
+			<div class="container-fluid">
+				<div class="row-fluid">
+					<div class="span4"><img src="http://s3.amazonaws.com/ah.web/circus-gowersterrace380.png" alt=""></div>
+					<div class="span8">
+						<h2 class="jumbo green">High-End Benefits</h2><br />
+						<p class="mbottom panelblurb">Andrew Harper offers benefits that recognize you for being a traveler with the highest standards facilitating extraordinary experiences.</p>
+						<p><a href="#" class="btn btn-large">Try It Now &rarr;</a></p>
+					</div>	
+				</div>	
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="row-fluid graybg">
+	<div class="wrapper">
+		<div class="container-fluid mbottom vertpadding">
+			<p class="text-center jumbo">If you can't travel well, why leave the house?</p>
+		</div>
+	</div>		
+</div>
+
+<div class="row-fluid darkgraybg">
+	<div class="wrapper">
+		<div class="row-fluid vertpadding footer">
+			<div class="span3">
+				<p>&copy; AwesomeCo</p>
+			</div>
+			<div class="pull-right">
+				<ul class="nav">
+					<li class="pull-right"><p><a href="#">Privacy</a></p></li>
+					<li class="pull-right"><p><a href="#">Terms of Service</a></p></li>
+					<li class="pull-right"><p><a href="#">About</a></p></li>
+				</ul>
+
+			</div>
+			<div class="clearfix"></div>
+		</div>
+	</div>		
+	<!-- scripts -->
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/nlform.js"></script>
+	<script>
+		var nlform = new NLForm( document.getElementById( 'nl-form' ) );
+	</script>
+</body>
+</html>

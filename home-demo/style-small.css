@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ================================================================== */
+/* Elements
+/* ================================================================== */
+
+body{
+	margin: 0;
+	min-width: 980px;
+	padding: 0;
+	background: url(images/bg.png) repeat;
+}
+
+.outer-wrapper li {
+	font-size: 24px;
+	font-family: "Benton Sans Light", Arial, Geneva, sans-serif;
+	line-height: 24px;
+}
+/* ================================================================== */
+/* Layout
+/* ================================================================== */
+.section {
+	height: 1140px;
+	width: 100%;
+	color: white;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	z-index: 10;
+}
+.float-left{
+	float: left;
+}
+
+.float-right{
+	float: right;
+}
+
+.center{
+	font-size: 2.5em;
+	padding: 80px 0;
+	text-align: center;
+}
+.story{
+	margin: 0 auto;
+	min-width: 980px;
+	width: 980px;
+}
+
+.story .float-left, .story .float-right{
+	padding: 100px 0 0 0;
+	position: relative;
+	width: 350px;	
+}
+
+/* ================================================================== */
+/* Sections
+/* ================================================================== */
+
+#login{
+	background-color: #fff;
+	padding: 20px 5px 20px 40px;
+	list-style: none;
+	position: fixed;
+	top: 200px;
+	z-index: 20;
+}
+#login li{
+	margin: 0 0 20px 0;	
+}
+#login li:last-child{
+	margin: 0;	
+}
+#login.fixed-right {
+	right: 0;
+}
+.nav-wrap {
+	position: relative;
+	z-index: 20;
+	padding: 20px 0;
+	margin-top: 0;
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.nav-wrap.fixed {
+	position: fixed;
+	width: 1440px;
+	z-index: 15;
+}
+.nav-wrap.bottom-fixed {
+	bottom: 0;
+}
+#nav {
+	display: inline-block;
+	margin: 0;
+}
+#nav li{
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 0;
+}
+#nav li:last-child{
+	margin-right: 0;
+}
+.outer-wrapper {
+	width: 1440px;
+	margin: 0 auto;
+	/*-webkit-box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
+	box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);*/
+}
+
+#intro{
+	background:url(images/bg1.jpg) 50% 0 no-repeat fixed;
+}
+
+#second{
+	background: url(images/bg1.jpg) 50% 0 no-repeat fixed;
+}
+
+#third{
+	background: url(images/bg1.jpg) 50% 0 no-repeat fixed;
+}
+
+#fourth{
+	background: url(images/bg1.jpg) 50% 0 no-repeat fixed;
+}
+
+/*
+#fifth{
+	background: #ccc;
+	height: 1000px;
+	margin: 0 auto;
+	padding: 40px 0 0 0;
+}*/

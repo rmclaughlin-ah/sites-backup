@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ================================================================== */
+/* Elements
+/* ================================================================== */
+body{
+	background: url(../images/bg.png) repeat;
+	word-wrap: break-word;
+}
+img {
+	max-width: 100%;
+}
+h1,h2 {
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 2.4rem;
+	line-height: 2.4rem;
+	margin-top: 0;
+	margin-bottom: 20px;
+	text-shadow: 1px 1px 1px #000;
+}
+h1.headline {
+	font-size: 9rem;
+	margin-top: 110px;
+}
+h2 {
+	font-size: 24px;
+}
+/* ================================================================== */
+/* Layout
+/* ================================================================== */
+.demo {
+	background-color: #999;
+}
+.outer-wrapper {
+	max-width: 100%;
+	margin: 0 auto;
+	background-color:#fff;
+}
+.outer-wrapper li {
+	font-size: 24px;
+	font-family: "Benton Sans Light", Arial, Geneva, sans-serif;
+	line-height: 24px;
+}
+/* ================================================================== */
+/* Sections
+/* ================================================================== */
+.nav-wrap {
+	position: relative;
+	z-index: 20;
+	padding: 2rem 0;
+	margin-top: 0;
+	color: #000;
+	text-align: center;
+	background-color: #fff;
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+.nav-wrap.fixed {
+	position: fixed;
+	width: 144rem;
+	z-index: 15;
+}
+.nav-wrap.bottom-fixed {
+	position: fixed;
+	width: 144rem;
+	z-index: 15;
+}
+#nav {
+	display: inline-block;
+	margin: 0;
+}
+#nav li{
+	float: left;
+	margin-right: 4rem;
+	margin-bottom: 0;
+}
+#nav li:last-child{
+	margin-right: 0;
+}
+.section {
+	min-height: 114rem;
+	color: #fff;
+}
+#intro{
+	background:url(../images/bg1.jpg) 50% 0 no-repeat fixed;
+	
+}
+
+#second{
+	background: url(../images/bg1.jpg) 50% 0 no-repeat fixed;
+	
+}
+
+#third{
+	background: url(../images/bg1.jpg) 50% 0 no-repeat fixed;
+	
+}
+
+#fourth{
+	background: url(../images/bg1.jpg) 50% 0 no-repeat fixed;
+	
+}
+#login{
+	background-color: #fff;
+	padding: 20px 5px 20px 40px;
+	list-style: none;
+	position: fixed;
+	top: 200px;
+	z-index: 20;
+}
+#login li{
+	margin: 0 0 20px 0;	
+}
+#login li:last-child{
+	margin: 0;	
+}
+#login.fixed-right {
+	right: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+}
+

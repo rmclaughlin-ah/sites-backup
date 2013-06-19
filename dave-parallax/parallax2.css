@@ -1,0 +1,50 @@
+body {
+	background: #373737;
+	color: #efefef;
+	font-family: "gill sans", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#home, #cool {
+  background: url('layer1.png') 50% 0 repeat fixed; min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+}
+#home p, #cool p {
+  height: 558px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+  padding: 15px;
+  background: url('layer3.png') 50% 0 repeat fixed;
+  font-size: 36px;
+  color: #efefef;
+  text-shadow: 3px 3px 3px #000;
+}
+#about, #stuff {
+  background: url('layer2.png') 50% 0 repeat fixed; min-height: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+  box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+#about p, #stuff p {
+  height: 208px;
+  position: absolute;
+  text-align: center;
+  top: 150px;
+  width: 100%;
+  padding: 15px;
+  background: url('layer4.png') 50% 0 repeat fixed;
+  font-size: 36px;
+  color: #efefef;
+  text-shadow: 3px 3px 3px #000;
+}

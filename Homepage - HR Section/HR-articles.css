@@ -1,0 +1,47 @@
+/* ================================================================== */
+/* Hideaway Reports
+/* ================================================================== */
+.hr-reports-wrapper {
+  position:relative;
+  overflow:hidden;
+  width:1200px; /* set dynamic to content-area */
+  height:600px; 
+  background:#fff;
+  color:#333;
+}
+.hr-reports-listing {
+  float:left;
+  width:360px; /* 30% ? */
+  height:560px;
+  margin:20px;
+}
+.hr-reports-listing div.hrarticle {
+  cursor:pointer;
+}
+.hr-reports-display {
+  float:left;
+  position:relative;
+  width: 780px; /* 66% ? */
+  height:560px;
+  margin: 20px 0;
+}
+.hr-article {
+  width: 780px;
+  position:absolute;
+  top:0;
+}
+.hr-standby {
+  display:none;
+  opacity:0.0;
+  left:800px;
+}
+.hr-active {
+  opacity: 1.0;
+  display:inline-block;
+  left: 0;
+  top:0;
+}
+.hr-loader {
+  opacity: 0.0;
+  left: 800px;
+}

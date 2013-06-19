@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AH UI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Loading Bootstrap -->
+  <link href="css/bootstrap.css" rel="stylesheet">
+
+  <!-- Loading AH UI -->
+  <link href="css/ah-ui.css" rel="stylesheet">
+  <!-- <link rel="shortcut icon" href="images/favicon.ico"> -->
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+      <div class="container">
+        <div class="demo-headline">
+          <h1 class="demo-logo">
+            Andrew Harper UI Kit
+          </h1>
+        </div> <!-- /demo-headline -->
+
+        <h1>Basic elements</h1>
+
+        <h3 class="demo-panel-title">Menu</h3>
+        <div class="row demo-row">
+          <!-- Utility Bar -->
+          <div class="navbar navbar-inverse">
+            <div class="navbar-inner">
+              <div class="container">
+                <img class="brand" src="img/ah-logo.png" class="pull-left">
+                <ul class="nav">
+                  <li class="active"><a href="#">HOTELS</a></li>
+                  <li><a href="#">HIDEAWAY REPORT</a></li>
+                  <li><a href="#">TRAVEL OFFICE</a></li>
+                  <li><a href="#">SPECIAL OFFERS</a></li>
+                </ul>
+              </div><!--/container-->
+            </div><!--/navbar-inner-->
+          </div><!--/navbar-->
+          <!-- /Utility Bar -->
+        </div> <!-- /row -->
+
+        <div class="row demo-row">
+          <!-- Utility Bar -->
+          <div class="navbar">
+            <div class="navbar-inner">
+              <div class="container">
+                <ul class="nav">
+                  <li class="active"><a href="#">HOTELS</a></li>
+                  <li><a href="#">HIDEAWAY REPORT</a></li>
+                  <li><a href="#">TRAVEL OFFICE</a></li>
+                  <li><a href="#">SPECIAL OFFERS</a></li>
+                </ul>
+              </div><!--/container-->
+            </div><!--/navbar-inner-->
+          </div><!--/navbar-->
+          <!-- /Utility Bar -->
+        </div> <!-- /row -->
+
+        <div class="row demo-row">
+          <div class="span6">
+            <h3 class="demo-panel-title">Buttons</h3>
+            <div class="row demo-row">
+              <div class="span3">
+                <button class="demo-row btn btn-large" type="button">Button!</button>
+                <button class="demo-row btn btn-danger btn-large" type="button">Error!</button>
+              </div>
+            </div> <!-- /row -->
+          </div>
+          <div class="span6">
+            <h3 class="demo-panel-title">Search</h3>
+            <div class="row">
+              <div class="span6">
+                <form class="input-append form-inline">
+                  <input type="text" value="" placeholder="Search" class="span3" />
+                  <span class="add-on"><i class="icon-search icon-white"></i></span>
+                </form>
+              </div>
+            </div> <!-- /row -->
+            <div class="row">
+              <div class="span6">
+                <form class="form-inline">
+                  <p class="error">
+                    <input type="text" value="" placeholder="Search" class="span3" />
+                    <input type="text" placeholder="Click Me" class="span2" data-toggle="tooltip" data-placement="right" data-title="Error!" data-trigger="manual" />
+                  </p>
+                </form>
+              </div>
+            </div> <!-- /row -->
+            <div class="row">
+              <div class="span6">
+                <form class="form-inline">
+                  <p class="success">
+                    <input type="text" placeholder="Search" class="span3" />
+                    <input type="text" value="" placeholder="Click Me" class="span2" data-toggle="tooltip" data-placement="right" data-title="Success!" data-trigger="manual" />
+                  </p>
+                </form>
+              </div>
+            </div> <!-- /row -->
+          </div>
+        </div><!-- row -->
+
+        <div class="row demo-row">
+          <div class="span6">
+            <h3 class="demo-panel-title">Forms</h3>
+            <form class="block">
+              <p>
+                <label for="name">Name</label>
+                <input class="form-test span3" type="text" value="" placeholder="Editable" />
+              </p>
+              <p>
+                <label for="location">Location</label>
+                <input class="form-test span3" type="text" placeholder="Editable" />
+              </p>
+              <p>
+                <label for="location">Address 1</label>
+                <input class="form-test span6" type="text" placeholder="Editable" />
+              </p>
+              <p>
+                <label for="location">Address 2</label>
+                <input class="form-test span6" type="text" placeholder="Editable" />
+              </p>
+              <p>
+                <label for="location">Address 3</label>
+                <input class="form-test span6" type="text" placeholder="Uneditable" disabled />
+              </p>
+            </form>
+          </div><!-- span6 -->
+          <div class="span6">
+            <h3 class="demo-panel-title">&nbsp;</h3>
+            <form class="form-inline">
+              <p>
+                <label class="control-label" for="name">Name</label>
+                <input class="form-test span3" type="text" value="" placeholder="Editable" />
+                <input class="form-test span2" type="text" value="" placeholder="Editable" />
+              </p>
+              <p>
+                <label class="control-label" for="location">Location</label>
+                <input class="form-test span3" type="text" placeholder="Editable" />
+                <input class="form-test span2" type="text" placeholder="Editable" />
+              </p>
+              <p>
+                <label class="control-label" for="location">Address 1</label>
+                <input class="form-test span5" type="text" placeholder="Editable" />
+              </p>
+              <p>
+                <label class="control-label" for="location">Address 2</label>
+                <input class="form-test span5" type="text" placeholder="Editable" />
+              </p>
+              <p>
+                <label class="control-label" for="location">Address 3</label>
+                <input class="form-test span5" type="text" placeholder="Uneditable" disabled />
+              </p>
+            </form>
+          </div><!-- span6 -->
+        </div><!-- row -->
+
+        <div class="row">
+          <div class="span5">
+            <h3 class="demo-panel-title">Status</h3>
+            <div class="row">
+              <div class="span3">
+                <div style="margin-bottom: 40px;" class="progress rounded" data-toggle="tooltip" data-placement="right" data-title="90%" data-trigger="manual">
+                  <div class="bar" style="width: 90%;"></div>
+                </div>
+                <div style="margin-bottom: 40px;" class="progress rounded" data-toggle="tooltip" data-placement="right" data-title="60%" data-trigger="manual">
+                  <div class="bar" style="width: 60%;"></div>
+                </div>
+                <div style="margin-bottom: 40px;" class="progress rounded" data-toggle="tooltip" data-placement="right" data-title="30%" data-trigger="manual">
+                  <div class="bar" style="width: 30%;"></div>
+                </div>
+              </div>
+              <div class="span5"><div style="margin-bottom: 40px;" class="progress">
+                <div class="bar" style="width: 45%;"></div>
+              </div>
+              <div style="margin-bottom: 40px;" class="progress">
+                <div class="bar" style="width: 60%;"></div>
+                <div class="bar bar-danger" style="width: 10%;"></div>
+              </div>
+              <div id="slider" class="ui-slider">
+                <div class="ui-slider-segment"></div>
+                <div class="ui-slider-segment"></div>
+                <div class="ui-slider-segment"></div>
+              </div>
+            </div> <!-- /sliders --></div>
+          </div>
+
+          <div class="span3">
+            <div class="demo-tooltips">
+              <h3 class="demo-panel-title">Tooltips</h3>
+              <p align="center" data-toggle="tooltip" data-placement="bottom" title="Tooltip under the text."></p>
+              <p align="center" data-toggle="tooltip" title="Here is the sample of talltooltip that contains three lines or more. More."></p>
+            </div>
+          </div> <!-- /span3 with tooltips -->
+
+        </div> <!-- /row -->
+
+        <div class="row demo-row">
+          <div class="span3">
+            <h3 class="demo-panel-title">Toggles</h3>
+
+            <table width="100%">
+              <tr>
+                <td width="50%">
+                  <div class="toggle">
+                    <label class="toggle-radio" for="toggleOption2">ON</label>
+                    <input type="radio" name="toggleOptions" id="toggleOption1" value="option1" checked="checked">
+                    <label class="toggle-radio" for="toggleOption1">OFF</label>
+                    <input type="radio" name="toggleOptions" id="toggleOption2" value="option2">
+                  </div>
+                </td>
+
+                <td>
+                  <div class="toggle">
+                    <label class="toggle-radio" for="toggleOption4">ON</label>
+                    <input type="radio" name="toggleOptions2" id="toggleOption3" value="option3">
+                    <label class="toggle-radio" for="toggleOption3">OFF</label>
+                    <input type="radio" name="toggleOptions2" id="toggleOption4" value="option4" checked="checked">
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="toggle toggle-icon">
+                    <label class="toggle-radio fui-checkmark-16" for="toggleOption6"></label>
+                    <input type="radio" name="toggleOptions3" id="toggleOption5" value="option5" checked="checked">
+                    <label class="toggle-radio fui-cross-16" for="toggleOption5"></label>
+                    <input type="radio" name="toggleOptions3" id="toggleOption6" value="option6">
+                  </div>
+                </td>
+
+                <td>
+                  <div class="toggle toggle-icon">
+                    <label class="toggle-radio fui-checkmark-16" for="toggleOption8"></label>
+                    <input type="radio" name="toggleOptions4" id="toggleOption7" value="option7">
+                    <label class="toggle-radio fui-cross-16" for="toggleOption7"></label>
+                    <input type="radio" name="toggleOptions4" id="toggleOption8" value="option8" checked="checked">
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div> <!-- /toggles span3 -->
+
+          <div class="span3">
+            <h3 class="demo-panel-title">Radio Buttons</h3>
+            <p><label class="radio">
+              <input class="form-test" type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
+              Radio is off
+            </label></p>
+            <p><label class="radio">
+              <input class="form-test" type="radio" name="optionsRadios" id="optionsRadios2" value="option1" checked="">
+              Radio is on
+            </label></p>
+            <p><label class="radio">
+              <input class="form-test" type="radio" name="optionsRadiosDisabled" id="optionsRadios3" value="option2" disabled="">
+              Disabled radio is off
+            </label></p>
+            <p><label class="radio">
+              <input class="form-test" type="radio" name="optionsRadiosDisabled" id="optionsRadios4" value="option2" checked="" disabled="">
+              Disabled radio is on
+            </label></p>
+          </div> <!-- /radios span3 -->
+          <div class="span3">
+            <h3 class="demo-panel-title">Checkboxes</h3>
+            <p><label class="checkbox" for="checkbox1">
+              <input class="form-test" type="checkbox" value="" id="checkbox1">
+              Unchecked
+            </label></p>
+            <p><label class="checkbox" for="checkbox2">
+              <input class="form-test" type="checkbox" checked="checked" value="" id="checkbox2">
+              Checked
+            </label></p>
+            
+            <p><label class="checkbox" for="checkbox3">
+              <input class="form-test" type="checkbox" value="" id="checkbox3" disabled="">
+              Disabled unchecked
+            </label></p>
+            <p><label class="checkbox" for="checkbox4">
+              <input class="form-test" type="checkbox" checked="checked" value="" id="checkbox4" disabled="">
+              Disabled checked
+            </label></p>
+            
+          </div> <!-- /checkboxes span3 -->
+          <div class="span3">
+            <h3 class="demo-panel-title">Selects</h3>
+            <p><select value="Where to?" class="span3" tabindex="1" name="travellist">
+              <option value="Austin, TX">Austin, TX</option>
+              <option value="New Orleans, LA">New Orleans, LA</option>
+              <option value="San Francisco, CA">San Francisco, CA</option>
+              <option value="New York, NY">New York, NY</option>
+              <option value="Chicago, IL">Chicago, IL</option>
+            </select></p>
+            
+          </div> <!-- /checkboxes span3 -->
+        </div> <!-- /row -->
+
+        <div class="row demo-row">
+          <div class="span6">
+            <h3 class="demo-panel-title">Fonts n' Stuff</h3>
+            <h1>This is an h1</h1>
+            <h2>This is an h2</h2>
+            <h3>This is an h3</h3>
+            <h4>This is an h4</h4>
+            <h5>This is an h5</h5>
+            <h6>This is an h6</h6>
+          </div>
+          <div class="span6">
+            <h3 class="demo-row">&nbsp;</h3>
+            <p>This is a paragraph Bushwick actually wayfarers Godard gentrify tumblr, chambray Neutra dreamcatcher butcher direct trade  readymade four loko tofu.  Artisan craft beer fingerstache, hoodie raw denim pug blue bottle street art Etsy semiotics vegan meh 3 wolf moon.  Skateboard thundercats occupy, dreamcatcher +1 scenester YOLO sustainable 3 wolf moon Banksy locavore.  Pork belly narwhal tumblr, Williamsburg master cleanse quinoa DIY.  Tattooed jean shorts deep v messenger bag church-key readymade, keffiyeh retro squid.  Pitchfork selvage meggings Brooklyn, flannel Cosby sweater fingerstache cred butcher thundercats synth jean shorts Echo Park.  Vice cornhole chambray YOLO Tonx pickled occupy, literally 8-bit.
+
+              Tattooed church-key organic twee, thundercats brunch sustainable.  Asymmetrical Brooklyn gastropub irony pug hoodie.  Try-hard bicycle rights cornhole master cleanse roof party chillwave wayfarers 90's Banksy intelligentsia polaroid.  Etsy locavore vegan, YOLO mustache cliche twee.  Post-ironic Odd Future artisan, tousled actually irony Brooklyn blog plaid Etsy.  Banh mi Bushwick tumblr, kogi trust fund Echo Park viral fixie 8-bit blog sriracha Terry Richardson.  Single-origin coffee Schlitz squid, letterpress kitsch wolf keytar 90's Tonx.</p></div>
+            </div>
+
+            <div class="row">
+              <div class="span10">
+                <h3 class="demo-panel-title">Color Swatches</h3>
+                <div class="row mbl">
+                  <div class="span2">
+                    <dl class="palette palette-green">
+                      <dt>#3D8E33</dt>
+                      <dd>Main Green</dd>
+                    </dl>
+                    <dl class="palette palette-green-light">
+                      <dt>#CFE5AE</dt>
+                      <dd>Light Green</dd>
+                    </dl>
+                  </div>
+
+                  <div class="span2">
+                    <dl class="palette palette-grey-light">
+                      <dt>#d8d8d8</dt>
+                      <dd>Light Grey</dd>
+                    </dl>
+                    <dl class="palette palette-grey-mediumlight">
+                      <dt>#999999</dt>
+                      <dd>Medium LT Grey</dd>
+                    </dl>
+                  </div>
+
+                  <div class="span2">
+                    <dl class="palette palette-grey-medium">
+                      <dt>#666666</dt>
+                      <dd>Medium Grey</dd>
+                    </dl>
+                    <dl class="palette palette-grey-dark">
+                      <dt>#333333</dt>
+                      <dd>Dark Grey</dd>
+                    </dl>
+                  </div>
+
+                  <div class="span2">
+                    <dl class="palette palette-red-light">
+                      <dt>#E74C3C</dt>
+                      <dd>Light Red</dd>
+                    </dl>
+                    <dl class="palette palette-red-dark">
+                      <dt>#C0392B</dt>
+                      <dd>Dark Red</dd>
+                    </dl>
+                  </div>
+
+                </div> <!-- /color swatches -->
+
+              </div>
+
+            </div> <!-- /swatches row -->
+
+            <div class="demo-icons">
+              <h3 class="demo-panel-title">Glyphs <small>(20)</small></h3>
+              <div class="demo-icons-24">
+                <span class="fui-video-24"></span>
+                <span class="fui-time-24"></span>
+                <span class="fui-settings-24"></span>
+                <span class="fui-plus-24"></span>
+                <span class="fui-new-24"></span>
+                <span class="fui-menu-24"></span>
+                <span class="fui-man-24"></span>
+                <span class="fui-mail-24"></span>
+                <span class="fui-lock-24"></span>
+                <span class="fui-location-24"></span>
+                <span class="fui-heart-24"></span>
+                <span class="fui-eye-24"></span>
+                <span class="fui-cross-24"></span>
+                <span class="fui-cmd-24"></span>
+                <span class="fui-checkround-24"></span>
+                <span class="fui-checkmark-24"></span>
+                <span class="fui-calendar-24"></span>
+                <span class="fui-bubble-24"></span>
+                <span class="fui-volume-24"></span>
+                <span class="fui-camera-24"></span>
+                <span class="demo-icons-tooltip">24 pixel grid</span>
+              </div>
+
+              <div class="demo-icons-16">
+                <span class="fui-video-16"></span>
+                <span class="fui-time-16"></span>
+                <span class="fui-settings-16"></span>
+                <span class="fui-plus-16"></span>
+                <span class="fui-new-16"></span>
+                <span class="fui-menu-16"></span>
+                <span class="fui-man-16"></span>
+                <span class="fui-mail-16"></span>
+                <span class="fui-lock-16"></span>
+                <span class="fui-location-16"></span>
+                <span class="fui-heart-16"></span>
+                <span class="fui-eye-16"></span>
+                <span class="fui-cross-16"></span>
+                <span class="fui-cmd-16"></span>
+                <span class="fui-checkround-16"></span>
+                <span class="fui-checkmark-16"></span>
+                <span class="fui-calendar-16"></span>
+                <span class="fui-bubble-16"></span>
+                <span class="fui-volume-16"></span>
+                <span class="fui-camera-16"></span>
+                <span class="demo-icons-tooltip">16 pixel grid</span>
+              </div>
+            </div> <!-- /icon font row -->
+
+          </div> <!-- /container -->
+
+          <!-- Load JS here for greater good =============================-->
+          <script src="js/jquery-1.8.2.min.js"></script>
+          <script src="js/jquery-ui-1.10.0.custom.min.js"></script>
+          <script src="js/jquery.dropkick-1.0.0.js"></script>
+          <script src="js/custom_checkbox_and_radio.js"></script>
+          <script src="js/custom_radio.js"></script>
+          <script src="js/jquery.tagsinput.js"></script>
+          <script src="js/bootstrap.min.js"></script>
+          <script src="js/jquery.placeholder.js"></script>
+          <script src="http://vjs.zencdn.net/c/video.js"></script>
+          <script src="js/application.js"></script>
+          <script src="js/ahui-demo.js"></script>
+    <!--[if lt IE 8]>
+      <script src="js/icon-font-ie7.js"></script>
+      <script src="js/icon-font-ie7-24.js"></script>
+      <![endif]-->
+    </body>
+    </html>
