@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+  width: 800px;
+  height: 200px;
+  position: relative;
+  margin: 200px auto;
+  -webkit-perspective: 1000px;
+  
+}
+
+#cube {
+  width: 800px;
+  height: 200px;
+  position: absolute;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1s;
+  -webkit-transform: translateZ(-100px);
+    
+}
+
+#cube figure {
+  width: 800px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  font-size: 120px;
+  line-height: 120px;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  border: 2px #000 solid;
+}
+
+#cube .front  { background: red; }
+#cube .back   { background: green; }
+#cube .top    { background: blue; }
+#cube .bottom { background: yellow; }
+
+#cube .front  { -webkit-transform: translateZ( 100px ); }
+#cube .back   { -webkit-transform: rotateX( -180deg ) translateZ( 100px ); }
+#cube .top    { -webkit-transform: rotateX(  90deg ) translateZ( 100px ); }
+#cube .bottom { -webkit-transform: rotateX( -90deg ) translateZ( 100px ); }
+
+#cube.show-front  { -webkit-transform: translateZ( -100px ); }
+#cube.show-back   { -webkit-transform: translateZ( -100px ) rotateX( 180deg ); }
+#cube.show-top    { -webkit-transform: translateZ( -100px ) rotateX(  -90deg ); }
+#cube.show-bottom { -webkit-transform: translateZ( -100px ) rotateX(   90deg ); }
+  </style>
+</head>
+<body>
+<section class="container">
+  <div id="cube" class="show-front">
+    <figure class="front">1</figure>
+    <figure class="back">2</figure>
+    <figure class="top">3</figure>
+    <figure class="bottom">4</figure>
+  </div>
+</section>
+
+<section id="options">
+    <p id="show-buttons">
+      <button class="show-front">Show Front 1</button>
+      <button class="show-back">Show back 2</button>
+      <button class="show-top">Show top 3</button>
+      <button class="show-bottom">Show bottom 4</button>
+    </p>
+</section>
+<script>
+jQuery(document).ready(function() {
+
+    $('button.show-front').click (function() {
+        $('#cube').removeClass().addClass("show-front");
+    });
+    $('button.show-back').click (function() {
+        $('#cube').removeClass().addClass("show-back");
+    });
+    $('button.show-top').click (function() {
+        $('#cube').removeClass().addClass("show-top");
+    });
+    $('button.show-bottom').click (function() {
+        $('#cube').removeClass().addClass("show-bottom");
+    });
+
+
+
+
+});
+</script>
+</body>
+</html>
